@@ -40,24 +40,7 @@ class TicketsScreen extends StatelessWidget {
             ),
           ],
         ),
-        //  ToggleButtons(
-        //   isSelected: [false, true],
-        //   onPressed: (index) {},
-        //   borderRadius: BorderRadius.circular(20),
-        //   selectedColor: Colors.white,
-        //   color: Colors.black,
-        //   fillColor: Colors.black,
-        //   children: [
-        //     Padding(
-        //       padding: EdgeInsets.symmetric(horizontal: 16),
-        //       child: Text("Discover"),
-        //     ),
-        //     Padding(
-        //       padding: EdgeInsets.symmetric(horizontal: 16),
-        //       child: Text("My tickets"),
-        //     ),
-        //   ],
-        // ),
+
         centerTitle: true,
         backgroundColor: Colors.black,
         elevation: 0,
