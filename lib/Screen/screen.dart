@@ -15,29 +15,9 @@ class TicketsScreen extends StatelessWidget {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.black,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20),
-                ),
-                shadowColor: Colors.grey,
-              ),
-              onPressed: () {},
-              child: Text("Discover", style: TextStyle(color: Colors.white)),
-            ),
+            buttonResuse("Discover"),
             SizedBox(width: 8),
-            ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.black,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20),
-                ),
-                shadowColor: Colors.grey,
-              ),
-              onPressed: () {},
-              child: Text("My tickets", style: TextStyle(color: Colors.white)),
-            ),
+            buttonResuse("My tickets"),
           ],
         ),
 
@@ -54,6 +34,18 @@ class TicketsScreen extends StatelessWidget {
           },
         ),
       ),
+    );
+  }
+
+  Widget buttonResuse(String text) {
+    return ElevatedButton(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: Colors.black,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        shadowColor: Colors.grey,
+      ),
+      onPressed: () {},
+      child: Text(text, style: TextStyle(color: Colors.white)),
     );
   }
 }
