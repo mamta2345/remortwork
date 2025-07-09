@@ -20,10 +20,8 @@ class TicketsScreen extends StatelessWidget {
             buttonResuse("My tickets"),
           ],
         ),
-
         centerTitle: true,
         backgroundColor: Colors.black,
-        elevation: 0,
       ),
       body: Obx(
         () => ListView.builder(

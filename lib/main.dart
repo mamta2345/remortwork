@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Rount2 Task',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.black,
-        appBarTheme: AppBarTheme(backgroundColor: Colors.black, elevation: 0),
+        appBarTheme: AppBarTheme(backgroundColor: Colors.black),
       ),
       home: TicketsScreen(),
     );
